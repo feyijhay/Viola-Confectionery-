@@ -658,10 +658,12 @@ img { max-width: 100%; display: block; }
 
   .hero-content h1 { font-size: 2.4rem; }
   .hero-sub { font-size: 0.92rem; }
+  .hero { min-height: 70vh; }
+  .hero-bg img { object-position: center 55%; }
 
   .about-grid { grid-template-columns: 1fr; gap: 32px; }
   .about-image-wrap { max-width: 100%; }
-  .about-img { aspect-ratio: 4/3; }
+  .about-img { aspect-ratio: 3/4; }
   .about-text h2 { font-size: 1.7rem; }
 
   .services-grid { grid-template-columns: 1fr; gap: 14px; }
