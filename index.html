@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Viola | Confectionery & Content Creator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Viola<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"><img src="images/Viola.jpg" alt="" aria-hidden="true" /></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Baker · Chef · Influencer</p>
+      <h1>Elegbede<br/><em>Victoria Abosede</em></h1>
+      <p class="hero-sub">Celebrations made unforgettable. Brands made visible. Every creation made with purpose.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-image-wrap">
+        <img src="images/Viola.jpg" alt="Elegbede Victoria Abosede" class="about-img" />
+      </div>
+      <div class="about-text">
+        <span class="section-tag">Face Behind the Brand</span>
+        <h2>Meet <em>Elegbede Victoria Abosede</em></h2>
+        <p>
+          I am the founder and owner of Violabakes_ng, a confectionery brand built on passion, precision, and purpose. Before the flour and frosting, I walked the halls of banking, and that discipline shaped the way I run every aspect of this business.
+        </p>
+        <p>
+          Baking was never just a skill for me. It was a language. A way of showing up for people in their most meaningful moments. I kept refining that language, investing in my craft until every creation spoke for itself.
+        </p>
+        <p>
+          Beyond the kitchen, I work with credible brands as an influencer and content creator. I do not just promote products. I tell stories that connect, build trust, and turn audiences into loyal communities. If your brand deserves to be seen, I will make sure the right people see it.
+        </p>
+        <p>
+          I am an introvert with a big heart, a wife supported by a man who believes in every dream I carry, and a woman of faith who pours that faith into everything she creates. Welcome to my world.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="container">
+      <!-- <span class="section-tag center">What I Offer</span> -->
+      <h2 class="section-title center">Solutions Crafted <em>With Love</em></h2>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-cake-candles"></i></div>
+          <h3>Confectionery & Bakes</h3>
+          <p>Custom cakes, pastries, and sweet treats tailored for every celebration. I don't just bake. I create edible experiences that make your moments unforgettable.</p>
+          <a href="#contact" class="service-link">Order Now <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-bowl-food"></i></div>
+          <h3>Homemade Nutritious Meals</h3>
+          <p>Wholesome, home-cooked meals made with care and quality ingredients. Because good food is more than fuel. It is comfort, culture, and love on a plate.</p>
+          <a href="#contact" class="service-link">Get a Meal <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-star"></i></div>
+          <h3>Brand Promotion & Influencing</h3>
+          <p>I connect credible brands with their target audience authentically. As a content creator, I serve as the bridge that turns followers into loyal customers.</p>
+          <a href="#contact" class="service-link">Collaborate <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <!-- <span class="section-tag center">My Work</span> -->
+      <h2 class="section-title center">Crafted with <em>Intention</em></h2>
+      <p class="gallery-sub">Every cake tells a story. Browse through some of my creations.</p>
+
+      <div class="gallery-tabs">
+        <button class="gallery-tab active" data-filter="all">All</button>
+        <button class="gallery-tab" data-filter="cartoon">Cartoon Cakes</button>
+        <button class="gallery-tab" data-filter="wedding">Wedding Cakes</button>
+        <button class="gallery-tab" data-filter="birthday">Birthday Cakes</button>
+      </div>
+
+      <div class="gallery-featured-grid">
+        <!-- Row 1: 1 large + 2 small -->
+        <div class="gm-item" data-cat="cartoon" data-title="Cartoon Cake">
+          <img src="images/cartoonthemed1.png" alt="Cartoon themed cake 1" loading="lazy" />
+          <div class="gm-overlay"><span>Cartoon Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item" data-cat="cartoon" data-title="Cartoon Cake">
+          <img src="images/cartoonthemed2.png" alt="Cartoon themed cake 2" loading="lazy" />
+          <div class="gm-overlay"><span>Cartoon Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item" data-cat="wedding" data-title="Wedding Cake">
+          <img src="images/Weddingcake1.png" alt="Wedding cake 1" loading="lazy" />
+          <div class="gm-overlay"><span>Wedding Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Row 2: 3 equal -->
+        <div class="gm-item" data-cat="cartoon" data-title="Cartoon Cake">
+          <img src="images/cartoonthemed3.png" alt="Cartoon themed cake 3" loading="lazy" />
+          <div class="gm-overlay"><span>Cartoon Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item" data-cat="cartoon" data-title="Cartoon Cake">
+          <img src="images/cartoonthemed4.png" alt="Cartoon themed cake 4" loading="lazy" />
+          <div class="gm-overlay"><span>Cartoon Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item" data-cat="cartoon" data-title="Cartoon Cake">
+          <img src="images/cartoonthemed5.png" alt="Cartoon themed cake 5" loading="lazy" />
+          <div class="gm-overlay"><span>Cartoon Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Row 3: 2 small + 1 large -->
+        <div class="gm-item" data-cat="wedding" data-title="Wedding Cake">
+          <img src="images/Weddingcake2.png" alt="Wedding cake 2" loading="lazy" />
+          <div class="gm-overlay"><span>Wedding Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item" data-cat="cartoon" data-title="Cartoon Cake">
+          <img src="images/cartoonthemed6.png" alt="Cartoon themed cake 6" loading="lazy" />
+          <div class="gm-overlay"><span>Cartoon Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item" data-cat="cartoon" data-title="Cartoon Cake">
+          <img src="images/cartoonthemed7.png" alt="Cartoon themed cake 7" loading="lazy" />
+          <div class="gm-overlay"><span>Cartoon Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Row 4: 3 equal -->
+        <div class="gm-item" data-cat="cartoon" data-title="Cartoon Cake">
+          <img src="images/cartoonthemed8.png" alt="Cartoon themed cake 8" loading="lazy" />
+          <div class="gm-overlay"><span>Cartoon Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item" data-cat="cartoon" data-title="Cartoon Cake">
+          <img src="images/cartoonthemed9.png" alt="Cartoon themed cake 9" loading="lazy" />
+          <div class="gm-overlay"><span>Cartoon Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item" data-cat="wedding" data-title="Wedding Cake">
+          <img src="images/wedding3.png" alt="Wedding cake 3" loading="lazy" />
+          <div class="gm-overlay"><span>Wedding Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Row 5: remaining -->
+        <div class="gm-item" data-cat="wedding" data-title="Wedding Cake">
+          <img src="images/wedding4.png" alt="Wedding cake 4" loading="lazy" />
+          <div class="gm-overlay"><span>Wedding Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item" data-cat="birthday" data-title="Birthday Cake">
+          <img src="images/birthday5.png" alt="Birthday cake" loading="lazy" />
+          <div class="gm-overlay"><span>Birthday Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item" data-cat="birthday" data-title="Milestone Cake">
+          <img src="images/milestone1.png" alt="Milestone cake 1" loading="lazy" />
+          <div class="gm-overlay"><span>Milestone Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item" data-cat="birthday" data-title="Milestone Cake">
+          <img src="images/milestone2.png" alt="Milestone cake 2" loading="lazy" />
+          <div class="gm-overlay"><span>Milestone Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+      </div>
+
+      <div class="gallery-seemore">
+        <a href="https://www.tiktok.com/@violaconfectionery?_r=1&_t=ZS-94lgXKpxQE" target="_blank" class="seemore-link">
+          See more <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lbClose"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lb-prev" id="lbPrev"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="lb-next" id="lbNext"><i class="fa-solid fa-chevron-right"></i></button>
+    <div class="lb-img-wrap">
+      <img id="lbImg" src="" alt="" />
+      <p id="lbCaption"></p>
+    </div>
+  </div>
+
+
+  <!-- CONTACT -->  <section class="contact section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-text">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Let's Create Something <em>Beautiful</em> Together</h2>
+        <p>Whether you're planning a celebration, craving a good meal, or looking for a brand ambassador — I'm just a message away.</p>
+        <div class="contact-items">
+          <a href="https://wa.me/2348165528508" target="_blank" class="contact-item">
+            <div class="contact-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div>
+              <span>WhatsApp</span>
+              <p>+234 816 552 8508</p>
+            </div>
+          </a>
+          <a href="mailto:vickiequino16@gmail.com" class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <span>Email</span>
+              <p>vickiequino16@gmail.com</p>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/violabakes_ng?igsh=MWpsdzhkNnQ3bnNhMA%3D%3D&utm_source=qr" target="_blank" class="contact-item">
+            <div class="contact-icon"><i class="fa-brands fa-instagram"></i></div>
+            <div>
+              <span>Instagram</span>
+              <p>@violabakes_ng</p>
+            </div>
+          </a>
+          <a href="https://www.tiktok.com/@violaconfectionery?_r=1&_t=ZS-94lgXKpxQE" target="_blank" class="contact-item">
+            <div class="contact-icon"><i class="fa-brands fa-tiktok"></i></div>
+            <div>
+              <span>TikTok</span>
+              <p>@violaconfectionery</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm">
+          <h3>Send a Message</h3>
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <select>
+              <option value="" disabled selected>What do you need?</option>
+              <option>Custom Cake / Pastry</option>
+              <option>Homemade Meal</option>
+              <option>Brand Collaboration</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Tell me more about what you need..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">Viola<span>.</span></div>
+      <p>Baker · Chef · Content Creator · Brand Influencer</p>
+      <div class="footer-socials">
+        <a href="https://www.tiktok.com/@violaconfectionery?_r=1&_t=ZS-94lgXKpxQE" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.instagram.com/violabakes_ng?igsh=MWpsdzhkNnQ3bnNhMA%3D%3D&utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/2348165528508" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:vickiequino16@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Elegbede Victoria Abosede. All rights reserved.</p>
+      <p class="footer-dev">Developed by <a href="https://wa.me/2348125540400" target="_blank">KDtech</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
