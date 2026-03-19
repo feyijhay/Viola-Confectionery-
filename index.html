@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Viola | Confectionery & Content Creator</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&family=Bodoni+Moda:ital,wght@0,700;1,700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
@@ -36,26 +36,26 @@
   </section>
 
   <!-- ABOUT -->
-  <section class="about section" id="about">
-    <div class="container about-grid">
+  <section class="about" id="about">
+    <div class="about-intro">
+      <span class="section-tag">About Me</span>
+    </div>
+    <div class="about-grid">
       <div class="about-image-wrap">
+        <div class="about-img-panel"></div>
         <img src="images/Viola.jpg" alt="Elegbede Victoria Abosede" class="about-img" />
       </div>
       <div class="about-text">
         <span class="section-tag">Face Behind the Brand</span>
-        <h2>Meet <em>Elegbede Victoria Abosede</em></h2>
-        <p>
-          I am the founder and owner of Violabakes_ng, a confectionery brand built on passion, precision, and purpose. Before the flour and frosting, I walked the halls of banking, and that discipline shaped the way I run every aspect of this business.
-        </p>
-        <p>
-          Baking was never just a skill for me. It was a language. A way of showing up for people in their most meaningful moments. I kept refining that language, investing in my craft until every creation spoke for itself.
-        </p>
-        <p>
-          Beyond the kitchen, I work with credible brands as an influencer and content creator. I do not just promote products. I tell stories that connect, build trust, and turn audiences into loyal communities. If your brand deserves to be seen, I will make sure the right people see it.
-        </p>
-        <p>
-          I am an introvert with a big heart, a wife supported by a man who believes in every dream I carry, and a woman of faith who pours that faith into everything she creates. Welcome to my world.
-        </p>
+        <h2 class="about-name">Meet <em>Elegbede Victoria Abosede</em></h2>
+        <p>I am the founder and owner of Violabakes_ng, a confectionery brand built on passion, precision, and purpose. Before the flour and frosting, I walked the halls of banking, and that discipline shaped the way I run every aspect of this business.</p>
+        <p>Baking was never just a skill for me. It was a language. A way of showing up for people in their most meaningful moments. Beyond the kitchen, I work with credible brands as an influencer and content creator, turning audiences into loyal communities.</p>
+        <p>I am an introvert with a big heart, a wife supported by a man who believes in every dream I carry, and a woman of faith who pours that faith into everything she creates. Welcome to my world.</p>
+        <!-- <div class="about-socials">
+          <a href="https://wa.me/2348165528508" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/violabakes_ng" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@violaconfectionery" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </div> -->
       </div>
     </div>
   </section>
@@ -63,29 +63,43 @@
   <!-- SERVICES -->
   <section class="services section" id="services">
     <div class="container">
-      <!-- <span class="section-tag center">What I Offer</span> -->
-      <h2 class="section-title center">Solutions Crafted <em>With Love</em></h2>
+      <div class="services-header">
+        <!-- <span class="section-tag">What I Offer</span> -->
+        <h2 class="section-title center">What I Do <em>Best</em></h2>
+      </div>
       <div class="services-grid">
 
         <div class="service-card">
-          <div class="service-icon"><i class="fa-solid fa-cake-candles"></i></div>
-          <h3>Confectionery & Bakes</h3>
-          <p>Custom cakes, pastries, and sweet treats tailored for every celebration. I don't just bake. I create edible experiences that make your moments unforgettable.</p>
-          <a href="#contact" class="service-link">Order Now <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="service-card-img">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Cake" />
+          </div>
+          <div class="service-card-body">
+            <h3>Confectionery & Bakes</h3>
+            <p>Custom cakes, pastries, and sweet treats tailored for every celebration. I create edible experiences that make your moments unforgettable.</p>
+            <a href="#contact" class="service-link">Order Now <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
         </div>
 
         <div class="service-card">
-          <div class="service-icon"><i class="fa-solid fa-bowl-food"></i></div>
-          <h3>Homemade Nutritious Meals</h3>
-          <p>Wholesome, home-cooked meals made with care and quality ingredients. Because good food is more than fuel. It is comfort, culture, and love on a plate.</p>
-          <a href="#contact" class="service-link">Get a Meal <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="service-card-img">
+            <img src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=600&q=80" alt="Nigerian meal" />
+          </div>
+          <div class="service-card-body">
+            <h3>Homemade Nutritious Meals</h3>
+            <p>Wholesome, home-cooked meals made with care and quality ingredients. Good food is comfort, culture, and love on a plate.</p>
+            <a href="#contact" class="service-link">Get a Meal <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
         </div>
 
         <div class="service-card">
-          <div class="service-icon"><i class="fa-solid fa-star"></i></div>
-          <h3>Brand Promotion & Influencing</h3>
-          <p>I connect credible brands with their target audience authentically. As a content creator, I serve as the bridge that turns followers into loyal customers.</p>
-          <a href="#contact" class="service-link">Collaborate <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="service-card-img">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" alt="Brand Influencing" />
+          </div>
+          <div class="service-card-body">
+            <h3>Brand Promotion & Influencing</h3>
+            <p>I connect credible brands with their target audience authentically, serving as the bridge that turns followers into loyal customers.</p>
+            <a href="#contact" class="service-link">Collaborate <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
         </div>
 
       </div>
@@ -97,13 +111,13 @@
     <div class="container">
       <!-- <span class="section-tag center">My Work</span> -->
       <h2 class="section-title center">Crafted with <em>Intention</em></h2>
-      <p class="gallery-sub">Every cake tells a story. Browse through some of my creations.</p>
+      <p class="gallery-sub">Browse through some of my creations.</p>
 
       <div class="gallery-tabs">
-        <button class="gallery-tab active" data-filter="all">All</button>
-        <button class="gallery-tab" data-filter="cartoon">Cartoon Cakes</button>
+        <button class="gallery-tab active" data-filter="cartoon">Cartoon Cakes</button>
         <button class="gallery-tab" data-filter="wedding">Wedding Cakes</button>
         <button class="gallery-tab" data-filter="birthday">Birthday Cakes</button>
+        <button class="gallery-tab" data-filter="food">Meals & Drinks</button>
       </div>
 
       <div class="gallery-featured-grid">
@@ -116,7 +130,7 @@
           <img src="images/cartoonthemed2.png" alt="Cartoon themed cake 2" loading="lazy" />
           <div class="gm-overlay"><span>Cartoon Cake</span><i class="fa-solid fa-expand"></i></div>
         </div>
-        <div class="gm-item" data-cat="wedding" data-title="Wedding Cake">
+        <div class="gm-item gm-hidden" data-cat="wedding" data-title="Wedding Cake">
           <img src="images/Weddingcake1.png" alt="Wedding cake 1" loading="lazy" />
           <div class="gm-overlay"><span>Wedding Cake</span><i class="fa-solid fa-expand"></i></div>
         </div>
@@ -136,7 +150,7 @@
         </div>
 
         <!-- Row 3: 2 small + 1 large -->
-        <div class="gm-item" data-cat="wedding" data-title="Wedding Cake">
+        <div class="gm-item gm-hidden" data-cat="wedding" data-title="Wedding Cake">
           <img src="images/Weddingcake2.png" alt="Wedding cake 2" loading="lazy" />
           <div class="gm-overlay"><span>Wedding Cake</span><i class="fa-solid fa-expand"></i></div>
         </div>
@@ -158,27 +172,53 @@
           <img src="images/cartoonthemed9.png" alt="Cartoon themed cake 9" loading="lazy" />
           <div class="gm-overlay"><span>Cartoon Cake</span><i class="fa-solid fa-expand"></i></div>
         </div>
-        <div class="gm-item" data-cat="wedding" data-title="Wedding Cake">
+        <div class="gm-item gm-hidden" data-cat="wedding" data-title="Wedding Cake">
           <img src="images/wedding3.png" alt="Wedding cake 3" loading="lazy" />
           <div class="gm-overlay"><span>Wedding Cake</span><i class="fa-solid fa-expand"></i></div>
         </div>
 
         <!-- Row 5: remaining -->
-        <div class="gm-item" data-cat="wedding" data-title="Wedding Cake">
+        <div class="gm-item gm-hidden" data-cat="wedding" data-title="Wedding Cake">
           <img src="images/wedding4.png" alt="Wedding cake 4" loading="lazy" />
           <div class="gm-overlay"><span>Wedding Cake</span><i class="fa-solid fa-expand"></i></div>
         </div>
-        <div class="gm-item" data-cat="birthday" data-title="Birthday Cake">
+        <div class="gm-item gm-hidden" data-cat="birthday" data-title="Birthday Cake">
           <img src="images/birthday5.png" alt="Birthday cake" loading="lazy" />
           <div class="gm-overlay"><span>Birthday Cake</span><i class="fa-solid fa-expand"></i></div>
         </div>
-        <div class="gm-item" data-cat="birthday" data-title="Milestone Cake">
+        <div class="gm-item gm-hidden" data-cat="birthday" data-title="Milestone Cake">
           <img src="images/milestone1.png" alt="Milestone cake 1" loading="lazy" />
           <div class="gm-overlay"><span>Milestone Cake</span><i class="fa-solid fa-expand"></i></div>
         </div>
-        <div class="gm-item" data-cat="birthday" data-title="Milestone Cake">
+        <div class="gm-item gm-hidden" data-cat="birthday" data-title="Milestone Cake">
           <img src="images/milestone2.png" alt="Milestone cake 2" loading="lazy" />
           <div class="gm-overlay"><span>Milestone Cake</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Meals & Drinks -->
+        <div class="gm-item gm-hidden" data-cat="food" data-title="Jollof Rice">
+          <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=600&q=80" alt="Jollof Rice" loading="lazy" />
+          <div class="gm-overlay"><span>Jollof Rice</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item gm-hidden" data-cat="food" data-title="Grilled Chicken">
+          <img src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=600&q=80" alt="Grilled Chicken" loading="lazy" />
+          <div class="gm-overlay"><span>Grilled Chicken</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item gm-hidden" data-cat="food" data-title="Rice & Chicken">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Rice and Chicken" loading="lazy" />
+          <div class="gm-overlay"><span>Rice & Chicken</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item gm-hidden" data-cat="food" data-title="Fried Plantain">
+          <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80" alt="Fried Plantain" loading="lazy" />
+          <div class="gm-overlay"><span>Fried Plantain</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item gm-hidden" data-cat="food" data-title="Fresh Drinks">
+          <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=600&q=80" alt="Fresh Drinks" loading="lazy" />
+          <div class="gm-overlay"><span>Fresh Drinks</span><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="gm-item gm-hidden" data-cat="food" data-title="Homemade Snacks">
+          <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=80" alt="Homemade Snacks" loading="lazy" />
+          <div class="gm-overlay"><span>Homemade Snacks</span><i class="fa-solid fa-expand"></i></div>
         </div>
       </div>
 

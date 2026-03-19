@@ -13,7 +13,7 @@ document.querySelectorAll('.gallery-tab').forEach(tab => {
     this.classList.add('active');
     const filter = this.dataset.filter;
     document.querySelectorAll('.gm-item').forEach(item => {
-      const match = filter === 'all' || item.dataset.cat === filter;
+      const match = item.dataset.cat === filter;
       item.classList.toggle('gm-hidden', !match);
     });
   });
