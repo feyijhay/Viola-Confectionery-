@@ -105,7 +105,9 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   color: var(--maroon);
 }
-.nav-logo span { color: var(--gold); }
+.logo-gold { color: var(--gold); }
+.logo-short { display: none; }
+.logo-full { display: inline; }
 
 .nav-links {
   display: flex;
@@ -747,6 +749,8 @@ img { max-width: 100%; display: block; }
 @media (max-width: 640px) {
   /* Navbar */
   .navbar { padding: 0 20px; }
+  .logo-full { display: none; }
+  .logo-short { display: inline; font-size: 1.1rem; }
   .nav-links {
     display: none;
     flex-direction: column;
@@ -829,7 +833,7 @@ img { max-width: 100%; display: block; }
 
   /* Footer */
   .footer { padding: 40px 16px; }
-  .footer-logo { font-size: 1.6rem; }
+  .footer-logo { font-size: 1.2rem; }
   .footer-inner > p { font-size: 0.78rem; }
 
   /* Lightbox */
